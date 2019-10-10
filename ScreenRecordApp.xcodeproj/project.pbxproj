@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B52042BF234CECD400BB98E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52042BE234CECD400BB98E9 /* AppDelegate.swift */; };
-		B52042C1234CECD400BB98E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52042C0234CECD400BB98E9 /* SceneDelegate.swift */; };
-		B52042C3234CECD400BB98E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52042C2234CECD400BB98E9 /* ViewController.swift */; };
+		B52042C3234CECD400BB98E9 /* RecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52042C2234CECD400BB98E9 /* RecordVC.swift */; };
 		B52042C6234CECD400BB98E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52042C4234CECD400BB98E9 /* Main.storyboard */; };
 		B52042C8234CECD800BB98E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52042C7234CECD800BB98E9 /* Assets.xcassets */; };
 		B52042CB234CECD800BB98E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52042C9234CECD800BB98E9 /* LaunchScreen.storyboard */; };
@@ -18,8 +17,7 @@
 /* Begin PBXFileReference section */
 		B52042BB234CECD400BB98E9 /* ScreenRecordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52042BE234CECD400BB98E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B52042C0234CECD400BB98E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B52042C2234CECD400BB98E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B52042C2234CECD400BB98E9 /* RecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVC.swift; sourceTree = "<group>"; };
 		B52042C5234CECD400BB98E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B52042C7234CECD800BB98E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52042CA234CECD800BB98E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B52042BE234CECD400BB98E9 /* AppDelegate.swift */,
-				B52042C0234CECD400BB98E9 /* SceneDelegate.swift */,
-				B52042C2234CECD400BB98E9 /* ViewController.swift */,
+				B52042C2234CECD400BB98E9 /* RecordVC.swift */,
 				B52042C4234CECD400BB98E9 /* Main.storyboard */,
 				B52042C7234CECD800BB98E9 /* Assets.xcassets */,
 				B52042C9234CECD800BB98E9 /* LaunchScreen.storyboard */,
@@ -138,9 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52042C3234CECD400BB98E9 /* ViewController.swift in Sources */,
+				B52042C3234CECD400BB98E9 /* RecordVC.swift in Sources */,
 				B52042BF234CECD400BB98E9 /* AppDelegate.swift in Sources */,
-				B52042C1234CECD400BB98E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83G4KB5W5L;
 				INFOPLIST_FILE = ScreenRecordApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83G4KB5W5L;
 				INFOPLIST_FILE = ScreenRecordApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
