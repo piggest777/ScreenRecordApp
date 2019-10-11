@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordVC" customModule="ScreenRecordApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qab-KD-p5u">
-                                <rect key="frame" x="96.5" y="20" width="182.5" height="33"/>
+                                <rect key="frame" x="69" y="5" width="182.5" height="33"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6FM-2A-KGq">
-                                <rect key="frame" x="64" y="73" width="247" height="32"/>
+                                <rect key="frame" x="36.5" y="43" width="247" height="32"/>
                                 <segments>
                                     <segment title="Skate"/>
                                     <segment title="Food"/>
@@ -36,14 +36,14 @@
                                     <action selector="imagePicked:" destination="BYZ-38-t0r" eventType="valueChanged" id="dID-g3-SOD"/>
                                 </connections>
                             </segmentedControl>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1ET-h2-LyL">
-                                <rect key="frame" x="16" y="134" width="343" height="300"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skate" translatesAutoresizingMaskIntoConstraints="NO" id="1ET-h2-LyL">
+                                <rect key="frame" x="16" y="84" width="288" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="SVN-lF-VrV"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MM7-WB-aFj">
-                                <rect key="frame" x="148" y="592" width="79" height="45"/>
+                                <rect key="frame" x="120.5" y="493" width="79" height="45"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
                                 <state key="normal" title="Record">
                                     <color key="titleColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -53,7 +53,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RqG-Eb-HSd">
-                                <rect key="frame" x="122" y="464" width="131" height="59.5"/>
+                                <rect key="frame" x="94.5" y="394" width="131" height="59.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Microsoft Access" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXE-99-feC">
                                         <rect key="frame" x="0.0" y="0.0" width="131" height="23.5"/>
@@ -72,15 +72,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1ET-h2-LyL" secondAttribute="trailing" constant="16" id="GzV-oR-aov"/>
                             <constraint firstItem="MM7-WB-aFj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IRf-M8-Kkh"/>
                             <constraint firstItem="RqG-Eb-HSd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K2l-P7-RXB"/>
-                            <constraint firstItem="1ET-h2-LyL" firstAttribute="top" secondItem="6FM-2A-KGq" secondAttribute="bottom" constant="30" id="Ufi-8d-P1B"/>
-                            <constraint firstItem="qab-KD-p5u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="XO3-Zc-bMn"/>
+                            <constraint firstItem="1ET-h2-LyL" firstAttribute="top" secondItem="6FM-2A-KGq" secondAttribute="bottom" constant="10" id="Ufi-8d-P1B"/>
+                            <constraint firstItem="qab-KD-p5u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="XO3-Zc-bMn"/>
                             <constraint firstItem="1ET-h2-LyL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fkA-Fi-WVf"/>
                             <constraint firstItem="1ET-h2-LyL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i0I-lb-iMn"/>
-                            <constraint firstItem="6FM-2A-KGq" firstAttribute="top" secondItem="qab-KD-p5u" secondAttribute="bottom" constant="20" id="me6-gn-urZ"/>
+                            <constraint firstItem="6FM-2A-KGq" firstAttribute="top" secondItem="qab-KD-p5u" secondAttribute="bottom" constant="5" id="me6-gn-urZ"/>
                             <constraint firstItem="qab-KD-p5u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tr6-4u-0KW"/>
                             <constraint firstItem="6FM-2A-KGq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vDv-UB-WSJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MM7-WB-aFj" secondAttribute="bottom" constant="30" id="vKm-jP-irI"/>
-                            <constraint firstItem="RqG-Eb-HSd" firstAttribute="top" secondItem="1ET-h2-LyL" secondAttribute="bottom" constant="30" id="wiF-Ho-Bdj"/>
+                            <constraint firstItem="RqG-Eb-HSd" firstAttribute="top" secondItem="1ET-h2-LyL" secondAttribute="bottom" constant="10" id="wiF-Ho-Bdj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -97,4 +97,7 @@
             <point key="canvasLocation" x="138.40000000000001" y="114.69265367316342"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="skate" width="640" height="427"/>
+    </resources>
 </document>
